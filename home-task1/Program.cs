@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Привет! Это ветка Сергея");
+﻿Console.WriteLine("Привет! Это ветка Мирона");
 Console.WriteLine("Введите длину стороны прямоуголника - а");
 float a = float.Parse(Console.ReadLine());
 
@@ -10,4 +10,4 @@ Console.WriteLine($"Периметр прямоуголника равен: {p}"
 
 float s = a * b;
 Console.WriteLine($"Площадь прямоуголника равна: {s}");
-Console.WriteLine("Готово");
+Console.WriteLine("Все работает! Я молодец!");
