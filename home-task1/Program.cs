@@ -1,4 +1,5 @@
-﻿while (true)
+﻿Console.WriteLine("Привет!!Удачи тебе))");
+while (true)
 {
     Console.WriteLine("Что рассчитать, периметр или площадь (p или s):");
     string formula = Console.ReadLine();
@@ -14,9 +15,10 @@
         float p = (a + b) * 2;
         Console.WriteLine($"Периметр прямоуголника равен: {p}");
     }
-
-    float s = a * b;
-    Console.WriteLine($"Площадь прямоуголника равна: {s}");
-
+    if (formula == "s")
+    {
+        float s = a * b;
+        Console.WriteLine($"Площадь прямоуголника равна: {s}");
+    }
     Console.WriteLine("Все работает! Я молодец!");
 }
